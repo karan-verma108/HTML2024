@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Picture tag in html</title>
+  </head>
+  <body>
+    <picture>
+      <source
+        srcset="
+          https://thumbor.forbes.com/thumbor/fit-in/900x510/https://www.forbes.com/advisor/wp-content/uploads/2023/07/top-20-small-dog-breeds.jpeg.jpg
+        "
+        type="image/jpeg"
+        media="(min-width : 1200px)"
+      />
+      <source
+        srcset="
+          https://cdn.pixabay.com/photo/2024/02/28/07/42/european-shorthair-8601492_1280.jpg
+        "
+        type="image/jpg"
+        media="(min-width : 1000px)"
+      />
+      <source
+        srcset="
+          https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Cow_%28Fleckvieh_breed%29_Oeschinensee_Slaunger_2009-07-07.jpg/1200px-Cow_%28Fleckvieh_breed%29_Oeschinensee_Slaunger_2009-07-07.jpg
+        "
+        type="image/jpg"
+        media="(min-width : 800px)"
+      />
+      <img
+        src="https://media.architecturaldigest.com/photos/63079fc7b4858efb76814bd2/16:9/w_4000,h_2250,c_limit/9.%20DeLorean-Alpha-5%20%5BDeLorean%5D.jpg"
+        alt="cars image"
+        width="100%"
+        height="auto"
+      />
+    </picture>
+  </body>
+</html>
