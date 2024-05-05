@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table tag</title>
+    <style>
+      table {
+        border: 1px solid #000;
+        text-align: center;
+        border-collapse: collapse;
+      }
+
+      td,
+      tr,
+      th {
+        border: 1px solid #000;
+        padding: 10px;
+      }
+
+      h1 {
+        text-align: center;
+      }
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 100vh;
+        gap: 4rem;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- <h1>HTML Table tag</h1>
+    <table>
+      <thead>
+        <tr>
+          <th>Username</th>
+          <th>Password</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Karan</td>
+          <td>123</td>
+        </tr>
+        <tr>
+          <td>Rahul</td>
+          <td>456</td>
+        </tr>
+        <tr>
+          <td colspan="2">Count : 2</td>
+        </tr>
+      </tbody>
+    </table> -->
+
+    <h1>Create a school time table</h1>
+    <table>
+      <thead>
+        <tr>
+          <th colspan="7">Time Table</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th rowspan="7">Hours</th>
+          <th>Mon</th>
+          <th>Mon</th>
+          <th>Mon</th>
+          <th>Mon</th>
+          <th>Mon</th>
+          <th>Mon</th>
+        </tr>
+        <tr>
+          <td>Math</td>
+          <td>Math</td>
+          <td>Math</td>
+          <td>Math</td>
+          <td>Math</td>
+          <td>Math</td>
+        </tr>
+        <tr>
+          <td>Science</td>
+          <td>Science</td>
+          <td>Science</td>
+          <td>Science</td>
+          <td>Science</td>
+          <td>Science</td>
+        </tr>
+        <tr>
+          <td colspan="6">Lunch</td>
+        </tr>
+        <tr>
+          <td>SST</td>
+          <td>SST</td>
+          <td>SST</td>
+          <td>SST</td>
+          <td>SST</td>
+          <td rowspan="2">Games</td>
+        </tr>
+        <tr>
+          <td>CS</td>
+          <td>CS</td>
+          <td>CS</td>
+          <td>CS</td>
+          <td>CS</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
