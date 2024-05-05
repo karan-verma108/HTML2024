@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: karanFont;
+    src: url('./fonts/Adorable\ Handmade.ttf') format('TrueType');
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+body {
+    font-family: karanFont;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 5%;
+    justify-content: center;
+    font-size: 1.4rem;
+}
+
+ul li {
+    cursor: pointer;
+    width: 7%;
+    height: 30px;
+}
+
+
+ul li:hover {
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.753);
+    color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    padding: 1.5rem;
+    background-color: yellow;
+    height: 70px;
+}
+
+#mainImage {
+    height: 90vh;
+}
+
+#offerImg {
+    position: absolute;
+    left: 2%;
+    width: 25%;
+    top: 20%;
+}
+
+.productContainer {
+    width: 100%;
+    height: 100vh;
+    background-color: purple;
+    /* padding: 5%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4%;
+
+}
+
+.shoppingCard {
+    background-color: #cb27f0;
+    height: 50%;
+    width: 20%;
+    border-radius: 10px;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.shoppingCard img {
+    height: 70%;
+    width: 100%;
+    border-radius: 10px;
+
+}
+
+.priceRating {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4%;
+}
+
+button {
+    width: 100%;
+    padding: 2% 0%;
+    margin-top: 4%;
+    text-transform: uppercase;
+    cursor: pointer;
+    background-color: rgb(230, 218, 230);
+    border: none;
+
+
+}
