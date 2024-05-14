@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Datalist</title>
+  </head>
+  <body>
+    <h1>Let's first look at select</h1>
+    <label for="favCountry">Favourite Country</label>
+    <select name="favCountry" id="favCountry">
+      <option value="Ind">India</option>
+      <option value="US">USA</option>
+      <option value="RS">Russia</option>
+      <option value="PL">Poland</option>
+    </select>
+
+    <h2>Now let's look at data list</h2>
+    <label for="country">Select your favourite country</label>
+    <input type="text" id="country" name="country" list="countries" />
+
+    <datalist id="countries">
+      <option value="ind">India</option>
+      <option value="us">US</option>
+      <option value="rs">Russia</option>
+    </datalist>
+  </body>
+</html>
