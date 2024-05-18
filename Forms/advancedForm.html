@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Advanced Form</title>
+  </head>
+  <body
+    style="
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    "
+  >
+    <h1>Special offer today only</h1>
+    <label for="priceRange">Select desired price range : </label>
+    <input
+      type="range"
+      id="priceRange"
+      name="priceRange"
+      min="0"
+      max="100"
+      value="0"
+      step="10"
+    />
+
+    <label for="search">Search your favorite item</label>
+    <input type="search" name="search" id="search" />
+
+    <h2>Fill out this form to buy now!</h2>
+    <fieldset style="display: flex; flex-direction: column">
+      <legend>Personal Information</legend>
+      <label for="name">Name</label>
+      <input type="text" name="name" id="name" />
+      <label for="email">Email</label>
+      <input type="email" name="email" id="email" />
+      <label for="phone">Phone</label>
+      <input type="number" name="phone" id="phone" />
+      <label for="address">Address</label>
+      <textarea name="address" id="address"></textarea>
+      <label for="color">Choose your favorite color</label>
+      <input type="color" name="color" id="color" />
+      <label for="week">Vacation week</label>
+      <input type="week" name="week" id="week" />
+      <label for="month">Month & year</label>
+      <input type="month" id="month" name="month" />
+    </fieldset>
+  </body>
+</html>
